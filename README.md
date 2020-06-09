@@ -1,3 +1,7 @@
 # CTFWriteUps
+
+## Upload your **completed** write-ups in `/write-ups`
+
 CTF WriteUps:
-- [ ] hello
+- [ ] Hextroadinary (ctflearn.com)
+- [ ] The Simpsons (ctflearn.com)
