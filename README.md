@@ -1,6 +1,6 @@
 # CTFWriteUps
 
-## Upload your **completed** write-ups in `/write-ups`
+**Upload your *__completed__* write-ups in `/write-ups`**
 
 CTF WriteUps:
 - [ ] Hextroadinary (ctflearn.com)
