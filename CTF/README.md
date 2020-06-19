@@ -7,7 +7,7 @@ Take note: naming convention for this folder is as such: `challengeName.md` so f
 **Upload your *__completed__* write-ups in `/write-ups`**
 
 CTF WriteUps:
-- [ ] Hextroadinary (ctflearn.com) -- Evangeline
+- [x] Hextroadinary (ctflearn.com) -- Evangeline
 - [ ] The Simpsons (ctflearn.com) -- Hongshuo
 
 ---
