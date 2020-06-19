@@ -4,6 +4,13 @@ Take note: naming convention for this folder is as such: `questionName.md` so fo
 
 ---
 
+**Upload your *__completed__* write-ups in `/write-ups`**
+
+Python WriteUps:
+- [ ] Question Name -- Assignee's Name
+
+---
+
 The write-up should be in the format below:
 
 # _insert question name here_
