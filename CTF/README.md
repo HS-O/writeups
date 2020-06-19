@@ -1,3 +1,11 @@
+# This folder is for CTF Write-ups
+
+Take note: naming convention for this folder is as such: `challengeName.md` so for example a write-up on the challenge _Defying Hell_ would be named as `defyinghell.md`
+
+---
+
+The write-up should be in the format below: 
+
 # _insert challenge name here_
 
 **Challenge link:** _insert challenge url here_
