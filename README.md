@@ -1,7 +1,10 @@
-# CTFWriteUps
+# DHICC WriteUps
 
-**Upload your *__completed__* write-ups in `/write-ups`**
+**Upload your *__completed__* write-ups in the correct (respective) folder**
 
 CTF WriteUps:
 - [ ] Hextroadinary (ctflearn.com) -- Evangeline
-- [ ] The Simpsons (ctflearn.com) -- Hongshuo
+- [ ] The Simpsons (ctflearn.com) -- Hongshuoi
+
+Python WriteUps:
+- [ ] ...
