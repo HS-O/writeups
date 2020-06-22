@@ -25,4 +25,3 @@ Challenge solution:
 8. then the line below gives a new value of key = key + key + chr(ord(key)-4), get new key as nnj
 9. finally, use the new key to decipher the encoded text "jrjerwhzkrexar" 
 10. get the flag "wearenumberone", submit 
-11. problem solved 
