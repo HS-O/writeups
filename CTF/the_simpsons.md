@@ -16,7 +16,10 @@ Challenge solution:
 2. open the jpg with notepad -- in case there is something hidden 
 3. at the button there are lines of python code 
 4. decode the encoded and key using octal mentioned in the description 
-5. get encoded as 'jrjerwhzkrexar', get key as 'How much did Maggie originally cost? (Divided by 8, to the nearest integer, and then plus four)'
+5. After decoding the encoded text above, you would get the decoded text as `jrjerwhzkrexar`
+6. After which you can get key using the instructions as stated in the hex-dumped value of the picture. The instructions are as follows:
+- 'How much did Maggie originally cost? 
+- Divided by 8, to the nearest integer, and then plus four)'
 6. search the ans of the qn in key online and do calculation get 110
 7. follow the key - use chr(the result of the key) get key = n
 8. then the line below gives a new value of key = key + key + chr(ord(key)-4), get new key as nnj
