@@ -12,7 +12,7 @@ Ya know, I was thinking... wouldn't the Simpsons use octal as a base system? The
 Challenge solution:
 
 1. firstly, go to the link provided and download it as jpg.
-2. open the jpg with nodepad -- in case there is sth hidden 
+2. open the jpg with notepad -- in case there is something hidden 
 3. at the button there are lines of python code 
 4. decode the encoded and key using octal mentioned in the description 
 5. get encoded as 'jrjerwhzkrexar', get key as 'How much did Maggie originally cost? (Divided by 8, to the nearest integer, and then plus four)'
