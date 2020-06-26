@@ -30,7 +30,8 @@ We open it in notepad or cyber chef is to check if there are any hidden text in 
    
 4. decode the encoded and key from the code above using octal
    this is done by using cyberchef, choose "from octal"
-   why use octal? -- becuase it is mentioned by the description : "wouldn't the Simpsons use octal as a base system" 
+   
+   why use octal? -- because it is mentioned by the description : "wouldn't the Simpsons use octal as a base system" 
    then put that series of numers (152 162 152 145 162 167 150 172 153 162 145 170 141 162) as input 
    
 5. After decoding the encoded text above, you would get text like `jrjerwhzkrexar`
