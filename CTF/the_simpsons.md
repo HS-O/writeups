@@ -16,7 +16,8 @@ Challenge solution:
 2. open the jpg with notepad -- in case there is something hidden 
    this will show a series of garbled characters on the notepad.
    such as : "L&@��dQ�Q15ǭ��z"
-   I am not sure why it is like this but I guess it is because the notepad only supports text but not photo
+
+We open it in notepad or cyber chef is to check if there are any hidden text in the meta data of the photo which in this case there is!
 3. at the button there are lines of python code 
    the python code states that: 
    
