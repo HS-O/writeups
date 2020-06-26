@@ -49,6 +49,7 @@ We open it in notepad or cyber chef is to check if there are any hidden text in 
    then 847.67 / 8, to the nearest integer, it will be 110
    
 7. follow the key - use chr(the result of the key) get key = n
+   
    as the code states: chr(the solution) 
    chr means, convert the number to letter according to the ACSII table:
    the table can be found here : http://www.asciitable.com/
