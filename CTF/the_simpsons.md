@@ -32,7 +32,7 @@ We open it in notepad or cyber chef is to check if there are any hidden text in 
    this is done by using cyberchef, choose "from octal"
    
    why use octal? -- because it is mentioned by the description : "wouldn't the Simpsons use octal as a base system" 
-   then put that series of numers (152 162 152 145 162 167 150 172 153 162 145 170 141 162) as input 
+   then put that series of numbers (152 162 152 145 162 167 150 172 153 162 145 170 141 162) as input 
    
 5. After decoding the encoded text above, you would get text like `jrjerwhzkrexar`
    it suggests that after converting this series of number from octal, it returns you the original text, which is        `jrjerwhzkrexar`
