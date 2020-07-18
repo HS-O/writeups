@@ -18,7 +18,7 @@ To make 𐤀 into a _good_ array, we can remove a prefix of size 𐡀, where a p
 
 ## Question Analysis
 
-This question was given in Codeforces Round #656, and I only made it past 3 questions before deciding to sleep. I did find my solution to the 3rd question quite cool, but I'm not really sure if its the most cost-efficient one.
+This question was given in Codeforces Round #656, and I only made it past 3 questions before deciding to sleep. I did find my solution to the 3rd question quite cool, but I'm not really sure if its the most cost-efficient one. I will be going through my thought process and solving method below.
 
 #### Initial Thoughts
 
@@ -26,3 +26,23 @@ Looking at the question at a glance, you can instantly know what this question i
 
 b = [4,3,3,8,4,5,2]. This array is not good yet, but we can see that the longest _good_ array ending at the last element 2 is [4,5,2], which gives a resulting non-decreasing array of [2,4,5]. Since the _good_ array starts at element 4 which is at index 4, the length of the prefix we have to remove is 4 (because an array starts from 0).
 
+#### Pattern Recognition
+
+If we find out what defining features a _good_ array has, we can check for those to determine its length. During the actual contest I was extremely stressed (like every other contest), so I usually wouldn't be able to catch such details at a glance. In such cases, it really helps to write out a few simple cases and extrapolate from there.
+
+Listing out a few examples of _good_ arrays:<br/>
+[1,2,1]<br/>
+[3,2,2]<br/>
+[2,2,3]<br/>
+[2,3,4,4,2,1]<br/>
+[1,2,3,4,4,3,2,2,1]<br/>
+[5,25,26,1]<br/>
+[1,2,4,5]<br/>
+
+From these examples, it was clear that _good_ arrays were all in the form of a mountain (I made this up this isn't an actual term), where a mountain is defined by some length of non-decreasing elements followed by some other length of non-increasing elements. Note that these lengths can be 0, meaning that the array can be completely non-increasing/non-decreasing. In other words, the array goes up and down, just like a mountain.
+
+Because an array is in this form, it is also symmetrical, meaning that it will still be _good_ if reversed. What that means is that we can traverse from the back of it to the front, instead of traversing from front to back, because the end of the _good_ array is much more well defined than the beginning.
+
+From this analysis, we can identify 2 features of _good_ arrays:
+- In mountain form
+- Symmetrical
