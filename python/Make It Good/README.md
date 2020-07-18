@@ -32,12 +32,12 @@ If we find out what defining features a _good_ array has, we can check for those
 
 Listing out a few examples of _good_ arrays:<br/>
 ```
-[1,2,1]\n
-[3,2,2]\n
-[2,2,3]\n
-[2,3,4,4,2,1]\n
-[1,2,3,4,4,3,2,2,1]\n
-[5,25,26,1]\n
+[1,2,1]
+[3,2,2]
+[2,2,3]
+[2,3,4,4,2,1]
+[1,2,3,4,4,3,2,2,1]
+[5,25,26,1]
 [1,2,4,5]
 ```
 
