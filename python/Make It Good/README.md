@@ -4,7 +4,7 @@ _Question is extremely long, so you can find it here at [this contest link](http
 
 tl;dr: This question involves an array 𐤀 of size n. 𐤀 needs to be made into a _good_ array, where a _good_ array is defined by an array which can be completely made into a non-decreasing array by transferring either the first or last element one by one. Here's an example:
 
-b = [1,2,3,4,4,2,1] . This array is good because we can obtain non-decreasing array c from it by the following sequence of operations:
+b = [1,2,3,4,4,2,1] . This array is _good_ because we can obtain a non-decreasing array c from it by the following sequence of operations:
 
 take the first element of b, so b=[2,3,4,4,2,1], c=[1]<br/>
 take the last element of b, so b=[2,3,4,4,2], c=[1,1]<br/>
@@ -13,6 +13,8 @@ take the first element of b, so b=[3,4,4], c=[1,1,2,2]<br/>
 take the first element of b, so b=[4,4], c=[1,1,2,2,3]<br/>
 take the last element of b, so b=[4], c=[1,1,2,2,3,4]<br/>
 take the only element of b, so b=[], c=[1,1,2,2,3,4,4] — c is non-decreasing.
+
+To make 𐤀 into a _good_ array, we can remove a prefix of size 𐡀, where a prefix is defined as a subarray starting from the first element of 𐤀. The task is to find the smallest possible value of 𐡀.
 
 ---
 
