@@ -27,9 +27,11 @@ Output:
 Question solution:
 '''
 
-T = int(input())
+T = int(input()) #get the number of patterns
 for i in range(T):
-    N = int(input())
+    N = int(input()) #get line number of one pattern
     for m in range(1, N+1):
-        print("*" * m + "#" * (2*N - 2*m) + "*" * m)
-    i = i + 1
+        #observe from the sample giveb, row number = 2 * line number, and the number of # on each line is an even number ( = 2N-2i - i is interation num) 
+        print("*" * m + "#" * (2*N - 2*m) + "*" * m) 
+        #print out the pattern 
+    i = i + 1 #interate the for loop 
