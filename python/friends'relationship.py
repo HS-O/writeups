@@ -34,4 +34,4 @@ for i in range(T):
         #observe from the sample given at line16-25, row number = 2 * line number, and the number of # on each line is an even number ( = 2N-2m - m is interation num) 
         print("*" * m + "#" * (2*N - 2*m) + "*" * m) 
         #print out the pattern 
-    i = i + 1 #iterate the for loop 
+   
