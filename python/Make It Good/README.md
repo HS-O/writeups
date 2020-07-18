@@ -16,6 +16,8 @@ take the only element of b, so b=[], c=[1,1,2,2,3,4,4] — c is non-decreasing.
 
 To make 𐤀 into a _good_ array, we can remove a prefix of size 𐡀, where a prefix is defined as a subarray starting from the first element of 𐤀. The task is to find the smallest possible value of 𐡀.
 
+<ins>*Attempt to solve this question for yourself before proceeding*</ins>
+
 ## Question Analysis
 
 This question was given in Codeforces Round #656, and I only made it past 3 questions before deciding to sleep. I did find my solution to the 3rd question quite cool, but I'm not really sure if its the most cost-efficient one. I will be going through my thought process and solving method below.
@@ -48,3 +50,11 @@ Because an array is in this form, it is also symmetrical, meaning that it will s
 From this analysis, we can identify 2 features of _good_ arrays:
 - In mountain form
 - Symmetrical
+
+With this knowledge, all we have to do is traverse from the end to the beginning of the array, and find the point where the mountain stops.
+
+## Writing Code
+
+To find a mountain, we have to keep track of the gradient of the array, and the mountain ends when a minimum point is reached. I'll explain more about what this means in the next few lines.
+
+An array's gradient (Once again I'm making this term up) will be defined as the change from the previous element to the current element. For example when traversing an array [3,4,5] the gradient is always +1, while in an array [4,5,3] the gradient goes from +1 (from 4 to 5) to -2 (from 5 to 3). When an array's gradient goes from positive to negative, a maxima is reached, and the mountain reaches its peak. When an array's gradient goes from negative to positive, a minima is reached, and the mountain ends.
