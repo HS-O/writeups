@@ -17,7 +17,7 @@ take the only element of b, so b=[], c=[1,1,2,2,3,4,4] — c is non-decreasing.
 To make 𐤀 into a _good_ array, we can remove a prefix of size 𐡀, where a prefix is defined as a subarray starting from the first element of 𐤀. The task is to find the smallest possible value of 𐡀.
 
 ---
-
+## Question Analysis
 
 
 Python WriteUps/Code:
