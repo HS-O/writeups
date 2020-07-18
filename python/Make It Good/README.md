@@ -30,14 +30,14 @@ b = [4,3,3,8,4,5,2]. This array is not good yet, but we can see that the longest
 
 If we find out what defining features a _good_ array has, we can check for those to determine its length. During the actual contest I was extremely stressed (like every other contest), so I usually wouldn't be able to catch such details at a glance. In such cases, it really helps to write out a few simple cases and extrapolate from there.
 
-Listing out a few examples of _good_ arrays:<br/>
-[1,2,1]<br/>
-[3,2,2]<br/>
-[2,2,3]<br/>
-[2,3,4,4,2,1]<br/>
-[1,2,3,4,4,3,2,2,1]<br/>
-[5,25,26,1]<br/>
-[1,2,4,5]<br/>
+Listing out a few examples of _good_ arrays:<br/>```
+[1,2,1]
+[3,2,2]
+[2,2,3]
+[2,3,4,4,2,1]
+[1,2,3,4,4,3,2,2,1]
+[5,25,26,1]
+[1,2,4,5]```
 
 From these examples, it was clear that _good_ arrays were all in the form of a mountain (I made this up this isn't an actual term), where a mountain is defined by some length of non-decreasing elements followed by some other length of non-increasing elements. Note that these lengths can be 0, meaning that the array can be completely non-increasing/non-decreasing. In other words, the array goes up and down, just like a mountain.
 
