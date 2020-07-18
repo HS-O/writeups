@@ -6,12 +6,12 @@ tl;dr: This question involves an array 𐤀 of size n. 𐤀 needs to be made int
 
 b = [1,2,3,4,4,2,1] . This array is good because we can obtain non-decreasing array c from it by the following sequence of operations:
 
-take the first element of b, so b=[2,3,4,4,2,1], c=[1]
-take the last element of b, so b=[2,3,4,4,2], c=[1,1]
-take the last element of b, so b=[2,3,4,4], c=[1,1,2]
-take the first element of b, so b=[3,4,4], c=[1,1,2,2]
-take the first element of b, so b=[4,4], c=[1,1,2,2,3]
-take the last element of b, so b=[4], c=[1,1,2,2,3,4]
+take the first element of b, so b=[2,3,4,4,2,1], c=[1]\n
+take the last element of b, so b=[2,3,4,4,2], c=[1,1]\n
+take the last element of b, so b=[2,3,4,4], c=[1,1,2]\n
+take the first element of b, so b=[3,4,4], c=[1,1,2,2]\n
+take the first element of b, so b=[4,4], c=[1,1,2,2,3]\n
+take the last element of b, so b=[4], c=[1,1,2,2,3,4]\n
 take the only element of b, so b=[], c=[1,1,2,2,3,4,4] — c is non-decreasing.
 
 ---
