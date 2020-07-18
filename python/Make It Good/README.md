@@ -16,35 +16,13 @@ take the only element of b, so b=[], c=[1,1,2,2,3,4,4] — c is non-decreasing.
 
 To make 𐤀 into a _good_ array, we can remove a prefix of size 𐡀, where a prefix is defined as a subarray starting from the first element of 𐤀. The task is to find the smallest possible value of 𐡀.
 
----
 ## Question Analysis
 
+This question was given in Codeforces Round #656, and I only made it past 3 questions before deciding to sleep. I did find my solution to the 3rd question quite cool, but I'm not really sure if its the most cost-efficient one.
 
-Python WriteUps/Code:
-- [ ] [Count Divisors](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/count-divisors/) -- Kingold 
-- [ ] [e-maze-in](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/e-maze-in-1aa4e2ac/) -- Rose
-- [ ] [IT’S MAGIC!](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/its-magic/) -- Evangeline
-- [ ] [Two Strings](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/two-strings-4/) -- Jia Xiang
-- [ ] [Friend's Relationship](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/friends-relationship-1/) -- Hongshuo
-- [ ] [Ali and Helping innocent people](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/cartag-948c2b02/) -- Joel
-- [ ] [Make It Good](https://codeforces.com/contest/1385/problem/C) -- Isaac
+#### Initial Thoughts
 
----
+Looking at the question at a glance, you can instantly know what this question is actually asking: Find the longest _good_ array ending at the last element of 𐤀. After you've found the length of this array, simply output the index of the beginning element of the _good_ array, which will be the length of the prefix to remove. Here's an example:
 
-The write-up (**if its a md file**) should be in the format below:
+b = [4,3,3,8,4,5,2]. This array is not good yet, but we can see that the longest _good_ array ending at the last element 2 is [4,5,2], which gives a resulting non-decreasing array of [2,4,5]. Since the _good_ array starts at element 4 which is at index 4, the length of the prefix we have to remove is 4 (because an array starts from 0).
 
-# _insert question name here_
-
-**Question link:** _insert question url here_
-
-**Question description:**
-
-_insert the question description here. copy pasting from the site itself would work_
-
-**Question solution:**
-
-_insert your solution here. you can add pictures, gifs, videos etc... but most importantly is your thought process when solving this question. Do note: if you wish to include pictures, videos, etc you would need to upload the pictures into the `resources` folder then reference it in your markdown file_
-
-**If it is a python file, do also use the format above, but place it in the comments at the top of the file**
-
-Thanks! :pray:
