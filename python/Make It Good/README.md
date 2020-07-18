@@ -1,10 +1,22 @@
-# This folder is for Python Write-ups/Codes
+# Make It Good
 
-Take note: naming convention for this folder is as such: `questionName.md` or `questionName.py` so for example a write-up/python file on the challenge about _converting an integer to binary keep leading zeros_  then the file could be named as `integer_to_binary_keep_leading_zeros.md` or `integer_to_binary_keep_leading_zeros.py` (this is just an example, as long as the file names are not repeating and understandable then it is fine)
+_Question is extremely long, so you can find it here at [this contest link](https://codeforces.com/contest/1385/problem/C)_
+
+tl;dr: This question involves an array 𐤀 of size n. 𐤀 needs to be made into a _good_ array, where a _good_ array is defined by an array which can be completely made into a non-decreasing array by transferring either the first or last element one by one. Here's an example:
+
+b = [1,2,3,4,4,2,1] . This array is good because we can obtain non-decreasing array c from it by the following sequence of operations:
+
+take the first element of b, so b=[2,3,4,4,2,1], c=[1];
+take the last element of b, so b=[2,3,4,4,2], c=[1,1];
+take the last element of b, so b=[2,3,4,4], c=[1,1,2];
+take the first element of b, so b=[3,4,4], c=[1,1,2,2];
+take the first element of b, so b=[4,4], c=[1,1,2,2,3];
+take the last element of b, so b=[4], c=[1,1,2,2,3,4];
+take the only element of b, so b=[], c=[1,1,2,2,3,4,4] — c is non-decreasing.
 
 ---
 
-**Upload your *__completed__* write-ups/python files through making a pull request to this folder**
+
 
 Python WriteUps/Code:
 - [ ] [Count Divisors](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/count-divisors/) -- Kingold 
