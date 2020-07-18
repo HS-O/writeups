@@ -32,13 +32,14 @@ If we find out what defining features a _good_ array has, we can check for those
 
 Listing out a few examples of _good_ arrays:<br/>
 ```
-[1,2,1]<br/>
-[3,2,2]<br/>
-[2,2,3]<br/>
-[2,3,4,4,2,1]<br/>
-[1,2,3,4,4,3,2,2,1]<br/>
-[5,25,26,1]<br/>
-[1,2,4,5]<br/>```
+[1,2,1]\n
+[3,2,2]\n
+[2,2,3]\n
+[2,3,4,4,2,1]\n
+[1,2,3,4,4,3,2,2,1]\n
+[5,25,26,1]\n
+[1,2,4,5]
+```
 
 From these examples, it was clear that _good_ arrays were all in the form of a mountain (I made this up this isn't an actual term), where a mountain is defined by some length of non-decreasing elements followed by some other length of non-increasing elements. Note that these lengths can be 0, meaning that the array can be completely non-increasing/non-decreasing. In other words, the array goes up and down, just like a mountain.
 
